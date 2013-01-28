@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="jquery.js"></script> 
+	  <script src="javascript.js"></script> 
+	  <link rel="stylesheet" href="bootstrap.css" type="text/css">
+	  <link rel="stylesheet" href="style.css" type="text/css">
+
+        <a href= "https://www.google.com">Home</a>  | <a href= "https://www.google.com"> @Connect</a> | <a href= "https://www.google.com"> #Discover</a>|<a href= "https://www.google.com">Me</a>
+        
+        <!-- Go to Bottom of Page Button -->
+        <FORM>
+        <INPUT TYPE="button"
+        VALUE="Click To Go To the Bottom Of The Page"
+        onClick="parent.location='#code'">
+        </FORM>
+	</head>
+
+<body>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">  
+    	<div class = "all">
+			<div class='avatar'><img src='L.png'></div>
+			<label> Susan Tan </label>
+			<input type="text" id="small_box" value="Compose new tweet..."></input> 
+			<textarea class ="big_box" name="text_box" id= "big_box" rows="5" cols="70"></textarea> 
+			
+			<div class="Error"> </div>
+			<div class ="Word_Count">Word Count:</div> 
+			<input type="submit" value="Tweet" id="submit_tweet" class="button"/>
+	   </div>
+    </div>
+    
+	    <div class="span15"><h1><b>My Tweets</b></h1>		
+          		<div id="tweet"></div>	        
+	    </div>
+
+  </div>
+</div>
+
+<A NAME="code">
+</body>
+</html> 

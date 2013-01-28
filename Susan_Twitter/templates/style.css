@@ -1,0 +1,47 @@
+body{
+	background-color: #87AEC5;
+	font-family: arial;
+	font-size: 80%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(http://www.tizag.com/pics/BannerTileBackground.gif);
+	background-repeat: repeat-x;
+}
+
+div.tweet{ 
+	top: 0px;
+	position: absolute;
+	left: 50px;
+	width: 680px;
+	border: 1px solid black;
+}
+
+div.avatar{
+	position: relative;
+	width: 45px;
+	height: 48px;
+	border: 1px solid black;
+}
+
+div.row {
+	position:relative;
+	height:75px;
+	width:730px;
+}
+
+textarea.big_box { 
+	display: None;
+}
+
+a.reply, a.fave { 
+	display: None; 
+}
+
+div.row:hover a.reply, div.row:hover a.fave {
+	display: inline;
+}
+
+
+div.row:hover{
+	background-color:#E8E8E8;
+}

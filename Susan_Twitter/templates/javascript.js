@@ -34,6 +34,7 @@ function display_tweet(tweet){
 }
 
 function click_tweet_box() { 
+	$("#small_box").val("Compose new tweet...");
 	$("#small_box").hide();
 	$("#big_box").show();
 	$("#big_box").focus()
@@ -62,7 +63,7 @@ function char_count(){
 	  	$("#submit_tweet").prop('disabled',true);
 	  }
 	  
-	  if (length > 0 && length < max ) {
+	  if (length > 0 && length <= max ) {
 	  	$(".Error").text(" ");
 	  	$("#submit_tweet").prop('disabled',false);
 	  }
